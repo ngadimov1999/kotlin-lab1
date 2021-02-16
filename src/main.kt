@@ -10,6 +10,6 @@ fun main(){
         println("Прозрачность: " + if (waterGroup[i].transparency) "прозрачная" else "непрозрачная")
         println("Физическое состояние: " + waterGroup[i].condition)
         println("Температура: " + "%.2f".format(waterGroup[i].temperature) + " градусов")
-        println("Безопасность: " + if (waterGroup[i].safety) "безопасна для питья" else "небезопасна для питья")
+        println("Безопасность: " + if (waterGroup[i].safety) "безопасна для питья при нормальных условиях" else "небезопасна для питья")
     }
 }
